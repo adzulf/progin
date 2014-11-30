@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>simple_light - contact us</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="#">Bimbingan Skripsi<span class="logo_colour">Online</span></a></h1>
+          <h2>Simple. Easy. Interesting.</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Profil</a></li>
+          <li><a href="#">Materi</a></li>
+          <li class="selected"><a href="#">Registrasi</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="site_content">
+      <div class="sidebar">
+      </div>
+     <div id="test-header" class="accordion_headings" align="center">REGISTRASI DOSEN PEMBIMBING</a></div>
+    <div id="test-content">
+      <div class="accordion_child">
+       <form action="handler.php" method="post">
+          <div class="form_settings">
+            <p><span>Nama Lengkap</span><input type="text" name="nama"/></p>
+            <p><span>NIDN</span><input type="text" name="nidn" /></p>
+            <p><span>Jenis kelamin</span>
+            <select name="jkel">
+              <option>Jenis kelamin</option>
+              <option value="Laki-laki">Laki-laki</option>
+              <option value="Perempuan">Perempuan</option>
+            </select></p>
+            <p><span>Tempat Lahir</span><input type="text" name="tempat_lahir"></p>
+            <p><span>Tanggal Lahir</span></span><input type="date" name="tgl_lahir"></p>
+            <p><span>Alamat Sekarang</span><textarea rows="8" cols="50" name="alamat"></textarea></p>
+            <p><span>Telepon</span><input type="text" name="telp" /></p>
+            <p><span>E-mail</span><input type="text" name="email"></p>
+            <p><span>Bidang keahlian</span>
+            <select name="bkea">
+              <option>Bidang Keahlian</option>
+              <option value="Sains dan Ilmu Komputer">Sains dan Ilmu Komputer</option>
+              <option value="Teknik Elektro dan mesin">Teknik Elektro dan mesin</option>
+              <option value="Ekonomi dan Bisnis">Ekonomi dan Bisnis</option>
+              <option value="Bahasa dan Sastra">Bahasa dan Sastra</option>
+              <option value="Ilmu Kesehatan">Ilmu Kesehatan</option>
+            </select></p>
+            <p><span>Kode Bimbingan</span></p>
+             <select name="kode_bimbingan">
+              <option>Silahkan Pilih kode bimbingan Anda</option>
+              <option value="77k5LN">77k5LN</option>
+              <option value="267FG">267FGH</option>
+              <option value="67NB5L">67NB5L</option>
+              <option value="263GYE">263GYE</option>
+            </select></p>
+            <p>*Kode di atas belum digunakan oleh pengguna lain</p>
+            <h4 style="padding: 10px 0 10px 0"><strong>Detail akun</strong></h4>
+            <p><span>Username</span><input type="text" name="user" /></p>
+            <p><span>Password</span><input type="text" name="pass"/></p>
+            <p><span>Ulangi Password</span><input type="text" name="ulang_password" /></p>
+            <p style="padding-top: 10px"><input class="submit" type="submit" name="register" value="Submit" /></p>
+          </div>
+        </form>
+      </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,3 @@
+Joni Iskandar,9910009879,Laki-laki,Kendal,1968-04-02,Jl Sadewa no 18 Semarang,087345678900,jon_bonjovi@gmail.com,Ekonomi dan Bisnis,345RMH,jon_torch,wismilak
+Sujiwo Tedjo,9910008797,Laki-laki,Semarang,1972-08-25,Jl. Bima Raya No.24 Semarang,085722225674,tedjobejo76@gmail.com,Bahasa dan Sastra,23ERH5,Tedjobejo,jiwojiwo
+
